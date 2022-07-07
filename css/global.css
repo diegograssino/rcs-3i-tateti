@@ -38,11 +38,43 @@ h1 {
 
 .squares {
   height: 150px;
-  border: 1px solid black;
+  border: 5px solid #424242;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  background-color: #b9e937;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.squares:hover {
   background-color: #00b906;
+}
+
+.squares:active {
+  background-color: #b9e937;
+}
+
+button {
+  border: 5px solid #424242;
+  background-color: #424242;
   color: #f5f5f5;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f5f5f5;
+  color: #424242;
+}
+
+button:active {
+  background-color: #424242;
+  color: #424242;
 }
